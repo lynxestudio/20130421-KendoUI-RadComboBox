@@ -1,4 +1,4 @@
-# Usando el control RadComboBox de Telerik con PostgreSQL
+# Usando el control RadComboBox de Telerik con ASP.NET y PostgreSQL
 
 <p align="justify">
 Aunque ASP.NET ofrece una extensa colección de Web Controls que proporcionan  al desarrollador una programación fácil, estandarizada y orientada a objetos, también existe como parte del ecosistema de ASP.NET la suite de controles <a href="http://www.telerik.com/products/aspnet-ajax.aspx">Telerik</a>  que complementan y ofrecen más funcionalidad que los Web Controls predeterminados incluidos en el conjunto estándar de ASP.NET.
@@ -15,12 +15,12 @@ A continuación un sencillo ejemplo para mostrar dos características básicas d
 El ejemplo consiste de una página ASP.NET que consulta una tabla de <b>products</b> que contiene una lista de productos clínicos de una base de datos <b>myinvoices</b>, la tabla tiene el siguiente esquema:
 </p>
 <div>
-<IMG src="picture_library/radcombobox/pic1.png">
+<IMG src="images/pic1.png">
 </div><br>
 <p align="justify">
 Consultamos la lista de productos</p>
 <div>
-<IMG src="picture_library/radcombobox/pic2.png">
+<IMG src="images/pic2.png">
 </div>
 <p align="justify">
 El ejemplo esta compuesto por 6 clases: <i>DataManager</i>, <i>Logger</i>, <i>PostgreSQLCommand</i>,<i>PostgreSQLDataBase</i>, <i>Product</i>, <i>ProductFilters</i> y dos páginas ASP.NET: <i>Default.aspx</i> y <i>Default2.aspx</i>.
@@ -76,15 +76,15 @@ public List<Product> GetProducts(ProductFilters filters) {
 </pre>
 <p>Al ejecutar la página vemos el resultado como en las siguientes imágenes:</p>
 <div>
-<IMG src="picture_library/radcombobox/pic3.png">
+<IMG src="images/pic3.png">
 </div><br>
 <p>Se realiza la búsqueda de las coincidencias entre lo tecleado por el usuario y el listado de productos</p>
 <div>
-<IMG src="picture_library/radcombobox/pic4.png">
+<IMG src="images/pic4.png">
 </div><br>
 <p>Es característica mejora el rendimiento de los formularios.</p>
 <div>
-<IMG src="picture_library/radcombobox/pic5.png">
+<IMG src="images/pic5.png">
 </div><br>
 <p align="justify">
 <b>Uso de  un template para los items.</b><br/>
@@ -93,5 +93,5 @@ Uno de los aspectos visuales más llamativos de este control Telerik es el utili
 <p>El código de la página ASP.NET <i>Default2.aspx</i> que muestra el uso de un template para los items.</p>
 <p>Al ejecutar la página Default2.aspx, veremos el resultado como en la siguiente imágen:</p>
 <div>
-<IMG src="picture_library/radcombobox/pic6.png">
+<IMG src="images/pic6.png">
 </div>
